@@ -18,7 +18,15 @@ String source = r"""
 			"description": "description",
 			"contributors": ["2"],
 			"creatorProfileId": "3",
-			"state": "INCOMPLETE"
+			"state": "INCOMPLETE",
+			"tasks": {
+				"101": {
+					"id": "1"
+				},
+				"102": {
+					"id": "2"
+				}
+			}
 		},
 		"2": {
 			"id": "1",
